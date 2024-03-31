@@ -1,0 +1,11 @@
+.footer{
+    background-color: #40679E;
+    padding: 3%;
+    color: white;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 3%;
+    font-size: 20px;
+}

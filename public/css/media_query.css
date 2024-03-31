@@ -1,0 +1,31 @@
+@media screen and (max-width: 988px) {
+    .navbar{
+        background: linear-gradient(100deg, white, transparent);
+        height: min-content;
+    }
+
+    .navbar-collapse{
+       margin: 2%;
+    }
+
+    .btn-login{
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .img-banner-home {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .img-banner-home {
+        margin-top: 13%;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 988px) {
+    .img-banner-home {
+        margin-top: 8%;
+    }
+}

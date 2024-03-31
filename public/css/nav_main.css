@@ -1,0 +1,55 @@
+.navbar{
+    background-color: transparent;
+    padding: 0%;
+    margin: -1% 0% -1% 0%;
+    height: min-content;
+}
+
+.navbar-collapse{
+    background-color: transparent;
+}
+
+.navbar-toggler{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar-brand{
+    background-color: transparent;
+    height: max-content;
+    margin: 0%;
+}
+
+.navbar-brand img{
+    background-color: transparent;
+}
+
+.container-fluid{
+    background-color: transparent;
+}
+
+.navbar-nav{
+    background-color: transparent;
+}
+
+.nav-item{
+    background-color: transparent;
+}
+
+.nav-item a{
+    color: #1B3C73;
+}
+
+.btn-login{
+    height: max-content;
+    background-color: #1B3C73;
+    text-decoration: none;
+    padding: 1% 2% 1% 2%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.btn-login .nav-item a{
+    color: white;
+    text-align: start;
+    padding-left: 2%;
+}
