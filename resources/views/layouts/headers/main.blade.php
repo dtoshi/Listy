@@ -21,9 +21,6 @@
                     <a class="nav-link" href="#">Acerca de</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">Preguntas frecuentes</a>
                 </li>
             </ul>
