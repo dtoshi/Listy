@@ -10,8 +10,8 @@
 
 <div class="img-banner-home">
     <img class="banner" src="/media/banner-index.png" alt="">
-    <a href="/" class="link"><div class="btn-start">Empezar</div></a>
 </div>
+<a href="{{ route('register.index') }}" style="top: -60" class="link"><div class="btn-start">Empezar</div></a>
 
 @section('content')
 <div>

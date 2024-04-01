@@ -11,6 +11,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="{{ asset('css/color.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/index.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/nav_main.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/media_query.css') }}" rel="stylesheet" type="text/css">
