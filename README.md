@@ -1,4 +1,4 @@
-![Logo de Listy](/public/media/Listy.png)
+<img src="/public/media/Listy.png" alt="Logo de Listy" width="100" height="100">
 
 # Listy
 
