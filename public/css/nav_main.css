@@ -1,7 +1,7 @@
 .navbar{
     background-color: transparent;
     padding: 0%;
-    margin: -1% 0% -1% 0%;
+    margin: -0.7% 0% -1% 0%;
     height: min-content;
 }
 
@@ -40,10 +40,10 @@
 }
 
 .btn-login{
-    height: max-content;
+    height: 100%;
     background-color: #1B3C73;
     text-decoration: none;
-    padding: 1% 2% 1% 2%;
+    padding: 1% 0% 0.4% 0%;
     margin-left: auto;
     text-align: center;
 }
@@ -51,5 +51,4 @@
 .btn-login .nav-item a{
     color: white;
     text-align: start;
-    padding-left: 2%;
 }

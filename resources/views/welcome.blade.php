@@ -10,12 +10,11 @@
 
 <div class="img-banner-home">
     <img class="banner" src="/media/banner-index.png" alt="">
-    <a href="/" class="link"><div class="btn-start">Empezar</div></a>
+    <div class="btn-start"><a href="{{ route('register.index') }}" class="link">Empezar</a></div>
 </div>
 
 @section('content')
 <div>
-    
 </div>
 @endsection
 
