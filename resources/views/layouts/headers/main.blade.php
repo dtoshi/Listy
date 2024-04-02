@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{route('home')}}">
             <img src="/media/Listy.png" alt="Bootstrap" width="50px" height="auto">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -35,7 +35,7 @@
             @else
             <ul class="navbar-nav btn-login ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login.index') }}">Inicio sesión</a>
+                    <a class="nav-link" href="{{ route('login.index') }}">Inicio sesión <i class="fa-solid fa-right-to-bracket"></i></a>
                 </li>
             </ul>
             @endif

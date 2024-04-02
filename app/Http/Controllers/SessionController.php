@@ -14,12 +14,18 @@ class SessionController extends Controller
 
     public function store(Request $request)
     {
-        if(auth()->attempt(request(['email', 'password'])) == false){
+
+        if (auth()->attempt(request(['email', 'password'])) == false) {
             return back()->withErrors([
                 'message' => 'correo y contraseña incorrectos'
             ]);
+        } else {
+            if (auth()->user()->role == 'admin') {
+                return redirect()->route('admin.index');
+            } else {
+                return redirect()->to('/');
+            }
         }
-        return redirect()->to('/');
     }
 
     public function destroy()
