@@ -1,4 +1,4 @@
-<img src="/public/media/Listy.png" alt="Logo de Listy" width="100" height="100">
+<img src="/public/media/Listy.png" alt="Logo de Listy" width="100" height="auto">
 
 # Listy
 
