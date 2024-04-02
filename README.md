@@ -1,3 +1,5 @@
+![Logo de Listy](/public/media/Listy.png)
+
 # Listy
 
 Listy es un proyecto en desarrollo para crear una aplicación web de gestión de tareas. Está construido con Laravel y Bootstrap, y próximamente se implementarán nuevas funcionalidades.
